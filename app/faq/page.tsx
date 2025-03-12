@@ -11,22 +11,22 @@ import Image from "next/image";
 const FaqPage = () => {
   const faqData = [
     {
-      question: "What is Eupraxis?",
+      question: "What is MSIF?",
       answer:
-        "Eupraxis is a company dedicated to enhancing digital literacy and providing advanced computer education through innovative programs and services.",
+        "MSIF is a company dedicated to enhancing digital literacy and providing advanced computer education through innovative programs and services.",
     },
     {
-      question: "How can I join Eupraxis?",
+      question: "How can I join MSIF?",
       answer:
-        "You can join Eupraxis by filling out the affiliation form on our website and making the required payment.",
+        "You can join MSIF by filling out the affiliation form on our website and making the required payment.",
     },
     {
       question: "What we do ?",
       answer:
-        "At Eupraxis, we focus on mobilizing, training, and placing candidates, equipping them with essential skills for meaningful employment.",
+        "At MSIF, we focus on mobilizing, training, and placing candidates, equipping them with essential skills for meaningful employment.",
     },
     {
-        question: "How can I contact Eupraxis?",
+        question: "How can I contact MSIF?",
         answer: "You can contact us via email. Our office is located at IGCSM, 36B/1, Gali Number 1, near Kalkaji Depot, Govindpuri, New Delhi, Delhi 110019",
       },
   ];

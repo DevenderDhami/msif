@@ -21,12 +21,11 @@ const AchievementsSection = () => {
       batches: acc.batches + (tp.batches || 0),
       enrolled: acc.enrolled + (tp.enrolled || 0),
       trained: acc.trained + (tp.trained || 0),
-      underTraining: acc.underTraining + (tp.underTraining || 0),
       placement: acc.placement + (tp.placement || 0),
     }),
-    { batches: 0, enrolled: 0, trained: 0, underTraining: 0, placement: 0 }
+    { batches: 0, enrolled: 0, trained: 0, placement: 0 }
   )
-  : { batches: 0, enrolled: 0, trained: 0, underTraining: 0, placement: 0 };
+  : { batches: 0, enrolled: 0, trained: 0, placement: 0 };
 
   const stats = [
     {
@@ -45,11 +44,6 @@ const AchievementsSection = () => {
       icon: <CheckCircle className="text-purple-600 text-4xl" />,
     },
     {
-      label: "Under Training",
-      value: totals.underTraining,
-      icon: <HourglassEmpty className="text-orange-600 text-4xl" />,
-    },
-    {
       label: "Total Placements",
       value: totals.placement,
       icon: <Work className="text-red-600 text-4xl" />,
@@ -65,7 +59,7 @@ const AchievementsSection = () => {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-xl p-5 border border-gray-200 hover:bg-orange-50 text-center"
+            className="bg-white shadow-lg rounded-xl p-5 border border-gray-200 hover:bg-pink-50 text-center"
           >
             <div className="flex justify-center mb-3">{stat.icon}</div>
             <h4 className="text-xl font-semibold text-gray-800">

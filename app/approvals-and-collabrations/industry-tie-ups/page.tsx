@@ -25,7 +25,7 @@ const IndustryTieUpsPage = () => {
           <div className="w-full md:w-2/3">
             <p className="text-gray-600  px-5 indent-10  mx-auto flex flex-col gap-4">
               {`
-          At Eupraxis, we believe in the power of collaboration to drive
+          At MSIF, we believe in the power of collaboration to drive
           meaningful change. Our partnerships with leading industry players help
           bridge the gap between rural talent and modern workforce demands.
           Through hands-on training, mentorship programs, and employment

@@ -79,7 +79,7 @@ const Navbar = () => {
                         </Link>
 
                         {openDropdown === item.name && (
-                          <div className="absolute left-0 w-48 bg-white shadow-xl rounded-lg z-50 my-4">
+                          <div className="absolute left-0 w-48 bg-white shadow-xl rounded-lg z-50 py-4">
                             <ul>
                               {item.subItems.map((subItem) => (
                                 <li key={subItem.name}>

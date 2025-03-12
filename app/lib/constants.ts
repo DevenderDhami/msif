@@ -1,4 +1,12 @@
-export const CMP_TITLE = 'Eupraxis'
+export const CMP_TITLE = 'MSIF'
+
+
+export const bannerImages = [
+    { imgSrc: "/assets/banner/1.png" },
+    { imgSrc: "/assets/banner/2.png" },
+    { imgSrc: "/assets/banner/3.png" },
+    { imgSrc: "/assets/banner/4.jpg" },
+];
 
 export const placementPartnersImages = [
     { imgSrc: "/assets/partners/Placement-partners/1.jpg" },
@@ -62,31 +70,33 @@ export const approvals = [
     },
 ]
 
+
 export const ourRecognitions = [
     {
-        name: "EESC MCA services",
-        url: "/pdfs/EESC/EESC Ministry Of Corporate Affairs - MCA Services.pdf",
-        // logo: "/assets/partners/approvals/rcpsdc.png",
+        name: "12A",
+        url: "/pdfs/MSIF 12A.pdf",
     },
     {
-        name: "COI",
-        url: "/pdfs/EESC/EUPRAXIS COI.pdf",
-        // logo: "/assets/partners/approvals/thsc.png",
+        name: "MSIF 80G",
+        url: "/pdfs/MSIF 80G.pdf",
     },
     {
-        name: "PAN",
-        url: "/pdfs/EESC/Eupraxis PAN.pdf",
-        // logo: "/assets/partners/approvals/iso.png",
+        name: "MSIF NGO Darpan",
+        url: "/pdfs/MSIF NGO Darpan.pdf",
+
     },
     {
         name: "TAN",
-        url: "/pdfs/EESC/EUPRAXIS TAN.pdf",
-        // logo: "/assets/partners/approvals/iso.png",
+        url: "/pdfs/MSIF TAN.pdf",
+    },
+    {
+        name: "PAN",
+        url: "/pdfs/MSIF-PAN card.pdf",
     },
 ]
 
 // import img from "@/public/assets/expertise/"
-export const ourExpertiesImages=[
+export const ourExpertiesImages = [
     { imgSrc: "/assets/expertise/1.jpeg" },
     { imgSrc: "/assets/expertise/2.jpeg" },
     { imgSrc: "/assets/expertise/3.jpeg" },

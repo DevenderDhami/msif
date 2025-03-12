@@ -2,7 +2,7 @@ export const termsData = [
     {
         "title": "1. INTRODUCTION",
         "content": `<div>
-         Thank you for selecting Eupraxis (referred to as “Site”, “Indira
+         Thank you for selecting MSIF (referred to as “Site”, “Indira
          Gandhi Computer Saksharta Mission(IGCSM)” “we”, “our”, or “us”). Please read these Terms &amp;
          conditions (“Terms”) carefully. The Terms are a legal agreement between you and us in relation to your
          use of the Site and its associated services (the “Agreement”).
@@ -39,7 +39,7 @@ export const termsData = [
     {
         "title": "5. PERSONAL INFORMATION AND PRIVACY",
         "content": `<div>
-        The Privacy Policy of Eupraxis is provided on this Site. You
+        The Privacy Policy of MSIF is provided on this Site. You
                 agree to our Privacy Policy, and to any changes published by us. You agree that we may use and maintain
                 your data according to the our Privacy Policy, as part of the Services.
         </div>`
@@ -118,22 +118,22 @@ export const termsData = [
     {
         "title": "INDEMNIFICATION",
         "content": `<div>
-        You agree to indemnify and hold harmless Eupraxis and its
+        You agree to indemnify and hold harmless MSIF and its
                 employees, representatives, agents, and affiliates, against any and all claims, suits, actions, or other
                 proceedings brought against them based on or arising from any claim resulting from your breach of this
                 Agreement, your violation of any law or third party right, any claim that use of our services has harmed
                 a third party, your use of the Site, the Services or your data. You will pay any and all costs, damages,
                 and expenses, including, but not limited to, reasonable attorneys’ fees and costs awarded against or
                 otherwise incurred by us in connection with or arising from any such claim, suit, action, or proceeding.
-                Eupraxis reserves the right, in its sole discretion and at its
+                MSIF reserves the right, in its sole discretion and at its
                 own expense, to assume the exclusive defence and control of any claims. You agree to reasonably
-                cooperate as requested by Eupraxis in the defence of any claims
+                cooperate as requested by MSIF in the defence of any claims
         </div>`
     },
     {
         "title": "TERMINATION",
         "content": `<div>
-        Eupraxis reserves the right, in our absolute discretion, to
+        MSIF reserves the right, in our absolute discretion, to
                 terminate your access to all or part of the Site or Services without notice. Upon such termination or
                 suspension you will be denied access to any information or files you have stored on the Site.
         </div>`
@@ -197,7 +197,7 @@ export const termsData = [
         "content": `<div>
         You consent to receive notices and information from us in respect of our Site and services by electronic
                 communication. You may withdraw this consent at any time, but if you do so we may choose to suspend or
-                close your account / subscription with Eupraxis. We may provide
+                close your account / subscription with MSIF. We may provide
                 you with notices, including those regarding changes to these terms by email, paper mail, publication on
                 our Site, by SMS, or in any other way recognised by law. You may contact us at director@IGCSM.org.
         </div>`

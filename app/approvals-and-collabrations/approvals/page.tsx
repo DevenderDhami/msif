@@ -1,5 +1,5 @@
 "use client";
-import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import React, { useState, useEffect } from "react";
 import PageLinks from "@/app/components/common/PageLink";
 import { approvals, ourRecognitions } from "@/app/lib/constants";
@@ -30,32 +30,6 @@ const ApprovalsPage = () => {
       />
 
       <div className="container mx-auto py-8 px-5">
-        {/* <div className="approvals">
-          <h2 className="text-4xl theme-clr font-bold mb-4 pl-6">
-            Our Approvals & Certificates
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-5 pb-10">
-            {approvals?.map((doc, index) => (
-              <div
-                key={index}
-                className="border p-2 rounded-lg shadow-lg hover:shadow-xl cursor-pointer bg-white text-center transition-all"
-                onClick={() => setSelectedPdf(doc.url)}
-              >
-                <div className="flex items-center justify-center rounded-lg ">
-                  <img src={doc?.logo} alt="PDF Thumbnail" className=" h-32" />
-                </div>
-                <p className="mt-2 theme-clr text-lg font-semibold">
-                  {doc.name}
-                </p>
-                <p className="mt-2 text-blue-600 font-semibold">
-                  View Certificate
-                </p>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
         <div className="certificates">
           <h2 className="text-4xl theme-clr font-bold mb-4 pl-6">
             Our Recogitions
@@ -69,16 +43,10 @@ const ApprovalsPage = () => {
                 onClick={() => setSelectedPdf(doc.url)}
               >
                 <div className="flex items-center justify-center rounded-lg ">
-                  {/* {doc?.logo ? (
-                    <img
-                      src={doc?.logo}
-                      alt="PDF Thumbnail"
-                      className=" h-32"
-                    />
-                  ) : (
-                  )} */}
-                  <PictureAsPdfIcon style={{ fontSize: 50}} className='text-red' />
-
+                  <PictureAsPdfIcon
+                    style={{ fontSize: 50 }}
+                    className="text-red"
+                  />
                 </div>
                 <p className="mt-2 theme-clr text-lg font-semibold">
                   {doc.name}
@@ -108,7 +76,6 @@ const ApprovalsPage = () => {
               &times;
             </button>
 
-            {/* PDF Viewer */}
             <iframe
               src={selectedPdf}
               className="w-full h-[90vh] rounded-lg border-none"

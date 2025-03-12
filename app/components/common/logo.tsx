@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logoImg from "@/public/assets/eupraxis_logo1.png"
+import logoImg from "@/public/msif_logo.jpg"
 import Link from "next/link";
 
 const Logo = () => {
@@ -9,9 +9,9 @@ const Logo = () => {
       <Image
         src={logoImg}
         alt={"Logo"}
-        width={100}
-        height={100}
-        className="inline-block "
+        width={70}
+        height={70}
+        className="inline-block rounded-lg "
       />
     </Link>
   );

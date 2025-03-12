@@ -5,40 +5,26 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { bannersData } from "@/app/data/BannersData";
-import { useState, useEffect } from "react";
+import { bannerImages } from "@/app/lib/constants";
 
 const BannerCarousel = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // Check if screen width is <768px
-    };
-
-    handleResize(); // Initial check
-    window.addEventListener("resize", handleResize); // Listen for screen size changes
-    return () => window.removeEventListener("resize", handleResize); // Cleanup
-  }, []);
-
   return (
     <div className="w-full mx-auto">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 1500 }}
         loop={true}
         className="w-full"
       >
-        {bannersData.map((item, index) => (
+        {bannerImages.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-64 md:h-[80vh] flex items-center justify-center  rounded-lg overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[80vh] flex items-center justify-center  overflow-hidden ">
               <Image
-                src={isMobile ? item.imageSmall : item.imageLarge} 
-                alt={item.title}
+                src={item?.imgSrc}
+                alt={"banner"}
                 layout="responsive"
                 width={1000}
                 height={1080}

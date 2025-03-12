@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div>
           <h4 className="theme-clr text-4xl font-semibold text-center py-3">About </h4>
           <p className="text-md text-center text-gray-700 my-3 ">
-            At Eupraxis, we believe that continuous learning is the key to unlocking your potential. Our platform offers cutting-edge, industry-driven courses designed to help you develop essential skills for the digital age.
+            At MSIF, we believe that continuous learning is the key to unlocking your potential. Our platform offers cutting-edge, industry-driven courses designed to help you develop essential skills for the digital age.
           </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-5">
               {aboutData?.map((about, index) => (

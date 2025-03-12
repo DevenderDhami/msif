@@ -10,11 +10,11 @@ export const NavMenu: NavigationItem[] = [
     { name: 'About us', href: '', current: false, subItems: [
         { name: `Chairman's Message`, href: '/chairman-message', current: false },
         { name: 'Our Team', href: '/our-team', current: false },
-        { name: 'About Eupraxis', href: '/about-us', current: false }
+        { name: 'About MSIF', href: '/about-us', current: false }
     ] },
     { name: 'Our services', href: '', current: false, subItems: [
         { name: `Projects`, href: '/our-projects', current: false },
-        { name: 'Our Expertise', href: '/our-expertise', current: false },
+        { name: 'Skill Development', href: '/skill-development', current: false },
     ] },
     { name: 'Our Recognitions', href: '', current: false, subItems: [
         { name: `Industry Tie ups`, href: '/approvals-and-collabrations/industry-tie-ups', current: false },

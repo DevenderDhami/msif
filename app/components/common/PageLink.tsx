@@ -9,7 +9,7 @@ interface PageLinkItem {
 interface PageLinksProps {
   items: PageLinkItem[];
   title: string;
-  imageUrl?: string; // ✅ Allow passing a custom background image
+  imageUrl?: string;
 }
 
 const PageLinks: React.FC<PageLinksProps> = ({ items, title, imageUrl }) => {
@@ -24,7 +24,7 @@ const PageLinks: React.FC<PageLinksProps> = ({ items, title, imageUrl }) => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-white text-center">
+      <div className="relative  text-white text-center">
         <h3 className="text-4xl font-bold capitalize">{title}</h3>
 
         {/* Breadcrumbs */}

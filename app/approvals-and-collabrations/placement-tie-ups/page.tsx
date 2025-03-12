@@ -90,7 +90,7 @@ const PlacementTieUpsPage = () => {
           <div className="content w-full md:w-2/3">
             <p className="text-gray-600 indent-10">
               {`
-          At Eupraxis, we go beyond skill development by ensuring our trainees
+          At MSIF, we go beyond skill development by ensuring our trainees
           have direct access to employment opportunities through strong
           placement tie-ups with reputed organizations. We have established
           partnerships with leading companies across diverse sectors, enabling
@@ -125,7 +125,7 @@ const PlacementTieUpsPage = () => {
               <h3 className="text-xl theme-clr font-bold">Self-Employment</h3>
               <p>
                 {`
-              At Eupraxis, we are committed to unlocking your potential for
+              At MSIF, we are committed to unlocking your potential for
               thriving in the realm of self-employment through our robust
               two-step approach.
             `}
@@ -262,7 +262,7 @@ const PlacementTieUpsPage = () => {
                 />
 
                 {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-orange-600 bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-gray-gray-100 bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <VisibilityIcon style={{ fontSize: 40, color: "white" }} />
                   <span className="text-white font-semibold text-lg">
                     Gallery
@@ -282,7 +282,7 @@ const PlacementTieUpsPage = () => {
           )}
         </div>
       </div>
-      <div className="mb-10 bg-orange-50 py-5 px-6">
+      <div className="mb-10 bg-pink-50 py-5 px-6">
         
         <OurPartnersLogoSlider
           title={"Placement Partners"}

@@ -8,7 +8,7 @@ const Banner = () => {
 
                     <div className='col-span-6 flex flex-col gap-3'>
 
-                        <h1 className='theme-clr  text-2xl  font-semibold text-center lg:text-start  '>Welcome to Eupraxis.</h1>
+                        <h1 className='theme-clr  text-2xl  font-semibold text-center lg:text-start  '>Welcome to MSIF.</h1>
                         <h1 className='text-midnightblue text-3xl  font-semibold text-center lg:text-start  lh-120 '>Advance your skills with us.</h1>
                         <h3 className='text-charcoal text-lg font-normal text-center lg:text-start opacity-75 '>Build skills with our courses and mentor from world-class companies.</h3>
 

@@ -60,7 +60,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-gray-50 shadow-lg rounded-lg">
+    <div className="max-w-3xl mx-auto p-6  shadow-lg rounded-lg">
       <h2 className="text-center text-2xl pb-4 theme-clr font-bold">
         Feel free to reach us !
       </h2>
@@ -124,7 +124,7 @@ const ContactForm: React.FC = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className={`px-6 py-3 theme-bg text-white font-semibold rounded-lg focus:outline-none focus:ring-2 hover:shadow-lg ${
+          className={`px-6 py-3 bg-[#ff1f59] text-white font-semibold rounded-lg focus:outline-none focus:ring-2 hover:shadow-lg ${
             isSubmitting ? "opacity-50 cursor-not-allowed" : ""
           }`}
         >

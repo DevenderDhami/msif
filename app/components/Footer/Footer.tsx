@@ -72,16 +72,14 @@ const products: ProductType[] = [
 
 const Footer = () => {
   return (
-    <div className="px-4 sm:px-6 lg:px-8 theme-bg text-white">
+    <div className="px-4 sm:px-6 lg:px-8 theme-bg text-black">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 py-5 gap-y-10 sm:grid-cols-6 lg:grid-cols-12">
           <div className="sm:col-span-6 lg:col-span-5">
             <div className="flex flex-shrink-0 items-center border-right">
-              <div className="bg-white p-1 px-4 opacity-90 rounded-lg">
               <Logo />
-              </div>
             </div>
-            <h3 className="text-xs font-medium lh-160 mt-5 mb-4 lg:mb-16 pr-10">
+            <h3 className="text-md font-medium lh-160 mt-5 mb-4 lg:mb-16 pr-10">
               {CMP_TITLE} is dedicated to empowering learners by offering
               accessible, high-quality education and skill development
               opportunities worldwide.
@@ -106,7 +104,7 @@ const Footer = () => {
           {/* Dynamic Columns */}
           {products?.map((product) => (
             <div key={product.id} className="sm:col-span-2">
-              <p className="text-white text-lg font-medium mb-5">
+              <p className="text-black text-lg font-medium mb-5">
                 {product.section}
               </p>
               <ul>
@@ -115,12 +113,12 @@ const Footer = () => {
                     {link.url ? (
                       <Link
                         href={link.url}
-                        className="text-white text-base font-normal mb-3 space-links"
+                        className="text-black text-base font-normal mb-3 space-links"
                       >
                         {link.name}
                       </Link>
                     ) : (
-                      <p className="text-white text-base font-normal mb-3">
+                      <p className="text-black text-base font-normal mb-3">
                         {link.name}
                       </p>
                     )}
@@ -133,17 +131,17 @@ const Footer = () => {
 
         {/* Footer Bottom Section */}
         <div className="py-3 md:flex items-center justify-between border-t border-t-gray-blue">
-          <h4 className="text-white text-sm text-center md:text-start font-normal">
+          <h4 className="text-black text-sm text-center md:text-start font-normal">
             @2025.{CMP_TITLE}. All rights reserved
           </h4>
           <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
-            <h4 className="text-white text-sm font-normal">
+            <h4 className="text-black text-sm font-normal">
               <Link href="/privacy-policy" target="">
                 Privacy policy
               </Link>
             </h4>
             <div className="h-5 bg-white opacity-25 w-0.5"></div>
-            <h4 className="text-white text-sm font-normal">
+            <h4 className="text-black text-sm font-normal">
               <Link href="/terms-conditions" target="">
                 Terms & conditions
               </Link>

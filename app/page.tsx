@@ -1,12 +1,12 @@
 import Testimonials from "./components/Testimonials/index";
-import Services from "./components/Services";
 import ScrollToTop from "./components/common/ScrollToTop";
 import BannerCarousel from "./components/Banner/BannerCarousel";
 import OurTeam from "./components/LandingPage/OurTeam";
-import WhoWeAre from "./components/LandingPage/WhoWeAre";
 import NewsAndNotifications from "./components/LandingPage/NewsAndNotifications";
 import OurPartnersLogoSlider from "./components/LandingPage/OurPartnersLogoSlider";
 import { industryPartnersImages } from "./lib/constants";
+import AboutSection from "./components/LandingPage/AboutSection";
+import ContactForm from "./components/LandingPage/ContactForm";
 
 export default function Home() {
   return (
@@ -16,34 +16,32 @@ export default function Home() {
       </div>
 
       <div className="py-10 container mx-auto px-4 md:px-8">
-        <WhoWeAre />
+        <AboutSection />
       </div>
-
-      <div id="services" className=" bg-lightkblue py-10 px-4 md:px-8">
-        <Services />
-      </div>
-
-      <ScrollToTop />
 
       <div id="team" className=" py-10 px-4 md:px-8 ">
         <OurTeam />
+      </div>
+
+      <div className="py-10 bg-gray-50 px-4 md:px-8" id="industry">
+        <OurPartnersLogoSlider
+          title={"Industry Partners"}
+          images={industryPartnersImages}
+        />
       </div>
 
       <div className="py-10 px-4 md:px-8" id="testimonial">
         <Testimonials />
       </div>
 
-      <div className="py-10 bg-gray-50 px-4 md:px-8" id="industry">
-        <OurPartnersLogoSlider title={"Industry Partners"}  images={industryPartnersImages}/>
-      </div>
-
-      <div className="bg-gray-50 px-4 md:px-8 mb-10" id="news">
+      <div className="bg-gray-100 px-4 md:px-8 py-20" id="news">
         <NewsAndNotifications />
       </div>
+      <ScrollToTop />
 
-      {/* <div id="contact" className="contact-us bg-blue-50 py-10">
-        <ContactUs />
-      </div> */}
+      <div id="contact" className="contact-us  py-10">
+        <ContactForm />
+      </div>
     </main>
   );
 }

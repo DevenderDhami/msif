@@ -54,7 +54,7 @@ const NewsAndNotifications = ({ isCol }: { isCol?: boolean }) => {
       {/* Conditionally apply flex or grid layout */}
       <div className={isCol ? "flex flex-col md:flex-col gap-8" : "grid grid-cols-1 md:grid-cols-2 gap-8"}>
         {/* Announcement Box */}
-        <div className="theme-bg text-white p-6 rounded-lg shadow-lg flex-1">
+        <div className="theme-bg  p-6 rounded-lg shadow-lg flex-1">
           <h3 className="text-center text-xl font-semibold mb-4">Announcement</h3>
           <div className="overflow-hidden h-48">
             <div className="space-y-3 animate-marquee hover:pause">
