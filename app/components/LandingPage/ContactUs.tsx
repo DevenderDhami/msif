@@ -7,6 +7,7 @@ const ContactUsView = () => {
   return (
     <>
       <PageLinks
+      
         title="Contact Us"
         imageUrl="/assets/pagelinks/team.webp"
         items={[

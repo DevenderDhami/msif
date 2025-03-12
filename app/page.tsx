@@ -34,14 +34,29 @@ export default function Home() {
         <Testimonials />
       </div>
 
-      <div className="bg-gray-100 px-4 md:px-8 py-20" id="news">
-        <NewsAndNotifications />
+      <div className="py-10 px-4 md:px-8 ">
+        <div className="container mx-auto flex flex-col md:flex-row  gap-3">
+          <div className="w-full md:w-3/5">
+            <NewsAndNotifications isCol={true} />
+          </div>
+          <div className="w-full md:w-2/5 my-auto border rounded-lg shadow-2xl">
+            {/* <h4 className="theme-clr text-4xl font-bold py-2 ">Contact Us</h4> */}
+            <ContactForm />
+          </div>
+        </div>
       </div>
-      <ScrollToTop />
 
-      <div id="contact" className="contact-us  py-10">
-        <ContactForm />
-      </div>
+      {/* <div className="relative w-full md:w-2/5 my-auto">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-xs"
+          style={{ backgroundImage: "url('/assets/contact.jpg')" }}
+        />
+        <div className="relative bg-gray-200 rounded-xl opacity-90">
+          <ContactForm />
+        </div>
+      </div> */}
+
+      <ScrollToTop />
     </main>
   );
 }

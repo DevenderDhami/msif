@@ -85,7 +85,7 @@ const PlacementTieUpsPage = () => {
         ]}
       />
 
-      <div className="container mx-auto py-8 px-4   flex flex-col gap-4 text-gray-700">
+      <div className="container mx-auto py-8 px-4   flex flex-col gap-4 text-gray-700 text-justify">
         <div className="flex flex-col md:flex-row ">
           <div className="content w-full md:w-2/3">
             <p className="text-gray-600 indent-10">

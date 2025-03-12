@@ -18,7 +18,7 @@ const ChairmanMessagePage = () => {
       />
 
       {/* Chairman's Message Section */}
-      <div className="container mx-auto w-full px-4 py-5">
+      <div className="container mx-auto w-full px-4 py-5 text-justify">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="relative  m-7">
             <Image

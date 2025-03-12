@@ -21,7 +21,7 @@ const BannerCarousel = () => {
       >
         {bannerImages.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-64 md:h-[80vh] flex items-center justify-center  overflow-hidden ">
+            <div className="relative w-full h-[20vh] md:h-[80vh] flex items-center justify-center  overflow-hidden ">
               <Image
                 src={item?.imgSrc}
                 alt={"banner"}
