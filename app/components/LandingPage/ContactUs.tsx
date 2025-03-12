@@ -1,3 +1,4 @@
+"use client"
 import { Email, Phone, LocationOn } from "@mui/icons-material";
 import ContactForm from "./ContactForm";
 import PageLinks from "../common/PageLink";
