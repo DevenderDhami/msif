@@ -18,9 +18,9 @@ const GovernmentPartnersPage = () => {
         ]}
       />
 
-      <div className="container mx-auto py-8 px-10 flex flex-col gap-5 ">
+      <div className="container mx-auto py-8 px-10 flex flex-col gap-5 text-justify ">
         <h2 className="text-4xl theme-clr font-bold">Government Partnership</h2>
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row gap-4">
           <div className="content w-full md:w-2/3">
             <p className="text-gray-600 indent-10">
               {`

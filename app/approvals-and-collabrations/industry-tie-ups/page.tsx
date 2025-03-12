@@ -20,7 +20,7 @@ const IndustryTieUpsPage = () => {
           },
         ]}
       />
-      <div className="container mx-auto py-10 flex flex-col gap-5 ">
+      <div className="container mx-auto py-10 flex flex-col gap-5 text-justify ">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-2/3">
             <p className="text-gray-600  px-5 indent-10  mx-auto flex flex-col gap-4">

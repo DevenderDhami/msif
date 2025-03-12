@@ -9,7 +9,7 @@ import { bannerImages } from "@/app/lib/constants";
 
 const PageLinks = ({ items, title,imageUrl }:{items:any,title:any,imageUrl:any}) => {
   return (
-    <section className="relative h-[400px] flex items-center justify-center w-full">
+    <section className="relative h-[200px] md:h-[400px] flex items-center justify-center w-full">
       {/* Swiper Carousel */}
       <div className="absolute inset-0 z-0 w-full h-full">
         <Swiper
@@ -35,7 +35,7 @@ const PageLinks = ({ items, title,imageUrl }:{items:any,title:any,imageUrl:any})
 
       <div className="absolute inset-0 opacity-50 "></div>
 
-      <div className="relative text-white text-center z-20">
+      <div className="relative text-white text-center ">
         <h3 className="text-4xl font-bold capitalize">{title}</h3>
         <div className="flex justify-center items-center gap-2 mt-2 text-lg font-semibold">
           {items.map((item:any, index:any) => (

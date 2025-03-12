@@ -24,7 +24,7 @@ const AboutUsPage = () => {
           { name: "About MSIF", link: "/about-us" },
         ]}
       />
-      <div className="container mx-auto py-8 px-4 md:px-8">
+      <div className="container mx-auto py-8 px-4 md:px-8 text-justify">
         <h3 className="theme-clr  font-bold text-4xl"> About MSIF</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 items-center py-5">
           <div className="indent-10 flex flex-col gap-2 h-full text-gray-700  ">

@@ -44,7 +44,7 @@ const circulars = [
 const NewsAndNotifications = ({ isCol }: { isCol?: boolean }) => {
   return (
     <div className="container mx-auto ">
-      <div className="py-5">
+      <div className=" pb-3">
         <h4 className="theme-clr text-4xl font-bold">News Updates</h4>
         <h4 className="text-gray-600 text-xl font-bold ">
           Latest News & Notice Board
